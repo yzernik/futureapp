@@ -2,7 +2,7 @@
   (:require
     [re-frame.core :refer [register-handler path trim-v after dispatch]]))
 
-(def app-db {:greeting "Hello Clojure in iOS and Android!"})
+(def app-db {:greeting "Hello Clojure in iOS and Android! Yay!"})
 
 (register-handler
   :initialize-db
