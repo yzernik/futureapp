@@ -33,4 +33,8 @@ local.properties
 node_modules/
 npm-debug.log
 
+# figwheel
+#
+figwheel_server.log
+
 target/
