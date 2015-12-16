@@ -3,7 +3,13 @@
   (:require [re-frame.core :refer [register-sub]]))
 
 (register-sub
-  :get-greeting
-  (fn [db _]
-    (reaction
-      (get @db :greeting))))
+ :get-greeting
+ (fn [db _]
+   (reaction
+    (get @db :greeting))))
+
+(register-sub
+ :get-press-count
+ (fn [db _]
+   (reaction
+    (get @db :press-count))))

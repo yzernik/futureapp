@@ -15,6 +15,10 @@
 
 (def logo-img (require-img "./images/cljs.png"))
 
+(defn greet
+  []
+  [text "Hello ratoms and reactions!!!!!??"])
+
 (defn widget []
   (let [greeting (subscribe [:get-greeting])]
     (fn []
@@ -22,6 +26,8 @@
        [text {:style {:fontSize 30 :fontWeight "100" :marginBottom 20 :textAlign "center"}} @greeting]
        [image {:source logo-img
                :style  {:width 80 :height 80 :marginBottom 30}}]
+       [text "hello!"]
+       [greet]
        [touchable-highlight {:style {:backgroundColor "#999" :padding 10 :borderRadius 5}}
         [text {:style {:color "white" :textAlign "center" :fontWeight "bold"}} "press me"]]])))
 

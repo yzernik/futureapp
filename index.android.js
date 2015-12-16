@@ -1,0 +1,1 @@
+require('figwheel-bridge').start('FutureApp','android', '10.0.2.2');

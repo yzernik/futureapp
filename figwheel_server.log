@@ -1,5 +1,0 @@
-[0mCompiling "target/android/not-used.js" from ["src" "env/dev"]...
-notifying browser that file changed:  target/android/goog/deps.js
-notifying browser that file changed:  target/android/cljs_deps.js
-notifying browser that file changed:  out/future_app/handlers.js
-[32mSuccessfully compiled "target/android/not-used.js" in 0.59 seconds.[0m
